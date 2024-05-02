@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal</title>
+    <!-- normalize CSS -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- main CSS -->
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="card">
+        <h1>Modal Project</h1>
+        <button class="btn btn-card">Open Modal</button>
+      </div>
+    </header>
+
+    <div class="modal-overlay">
+      <div class="modal-container">
+        <h3>Modal Content</h3>
+        <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+
+    <!-- js -->
+    <script src="./app.js"></script>
+  </body>
+</html>
