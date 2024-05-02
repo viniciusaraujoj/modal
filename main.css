@@ -318,14 +318,16 @@ Modal
 .modal-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.7);
   display: grid;
   place-items: center;
   visibility: hidden;
+  z-index: -10;
 }
 
 .show-modal {
   visibility: visible;
+  z-index: 10;
 }
 
 .modal-container {
@@ -333,7 +335,7 @@ Modal
   padding: 3rem;
   width: 90vw;
   max-width: 500px;
-  height: 25vh;
+  height: 50vh;
   border-radius: var(--borderRadius);
   text-align: center;
   position: relative;
